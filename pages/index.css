@@ -8,3 +8,7 @@
 @import url(../blocks/main-title/main-title.css);
 @import url(../blocks/main-subtitle/main-subtitle.css);
 @import url(../blocks/main-img/main-img.css);
+
+
+@import url(../blocks/footer-links/footer-links.css);
+@import url(../blocks/footer-link/footer-link.css);
