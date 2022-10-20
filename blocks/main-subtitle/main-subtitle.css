@@ -1,0 +1,12 @@
+.main-subtitle {
+  height: 72px;
+  width: 640px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;  
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+}
