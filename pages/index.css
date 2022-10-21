@@ -8,7 +8,22 @@
 @import url(../blocks/main-title/main-title.css);
 @import url(../blocks/main-subtitle/main-subtitle.css);
 @import url(../blocks/main-img/main-img.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__list/description__list.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__container/gallery__container.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/location/location.css);
+@import url(../blocks/location/__title/location__title.css);
+@import url(../blocks/location/__link/location__link.css);
+@import url(../blocks/location/__text/location__text.css);
+@import url(../blocks/bg-traine/bg-traine.css);
+@import url(../blocks/traine/traine.css);
 
-
+@import url(../blocks/footer/footer.css);
 @import url(../blocks/footer-links/footer-links.css);
 @import url(../blocks/footer-link/footer-link.css);
+@import url(../blocks/copywrite/__author/copywrite__author.css);

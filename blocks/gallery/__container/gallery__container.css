@@ -1,0 +1,7 @@
+.gallery__container {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  gap: 1%;
+  margin: 0;
+  padding: 0;
+}

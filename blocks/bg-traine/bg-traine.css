@@ -1,0 +1,17 @@
+.bg-traine {
+  max-width: 1184px;
+  height: 740px;
+  background-image: url(../../images/__background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bg-traine:hover {
+  opacity: .8;
+}

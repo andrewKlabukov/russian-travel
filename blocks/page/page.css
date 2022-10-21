@@ -1,10 +1,12 @@
 @font-face {
   font-family: "Inter";
-  src: url(../fonts/Inter\ Web/Inter-Black.woff2);
+  src: url(../../fonts/Inter-Black.woff2) format("woff2"),
+       url(../../fonts/Inter-Regular.woff2) format("woff2");    
 }
 
 .page {
   background-color: #2A2C2F;
   font-size: 18px;
-  font-family: 'Inter-Black';
+  font-family: "Inter", "Inter-Regular";
+  
 }
