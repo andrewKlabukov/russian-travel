@@ -8,6 +8,10 @@
   margin: 0 0 26px;
 }
 
+.location__text:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 400px) {
   .location__text {    
     max-width: 288px;
