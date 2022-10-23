@@ -14,7 +14,7 @@
 Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
 
 **Pages**
-*[Ссылка на проект](https://andrewklabukov.github.io/russian-travel/)
+* [Ссылка на проект](https://andrewklabukov.github.io/russian-travel/)
 
 **Figma**
 
