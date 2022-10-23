@@ -1,5 +1,12 @@
 .gallery {
-  max-width: 1182px;
+  max-width: 1184px;
+  width: 90%;
   margin: 0 auto;
+  margin-top: 92px;
 }
 
+@media screen and (max-width: 400px) {
+  .gallery {    
+    margin-top: 64px;
+  }
+}

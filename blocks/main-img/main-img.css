@@ -2,7 +2,15 @@
   background-image: url(../../images/main-img.jpg);
   max-width: 984px;
   height: 615px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-top: 64px;
+}
+
+@media screen and (max-width: 400px) {
+  .main-img {
+    height: 200px;
+    margin-top: 40px;
+  }
 }

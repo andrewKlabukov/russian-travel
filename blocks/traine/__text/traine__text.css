@@ -1,0 +1,21 @@
+.traine__text {  
+  width: 360px;
+  height: 66px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .traine__text {    
+    width: 288px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

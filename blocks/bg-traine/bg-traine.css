@@ -3,15 +3,21 @@
   height: 740px;
   background-image: url(../../images/__background.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  cursor: pointer;
+  text-decoration: none;  
 }
 
 .bg-traine:hover {
   opacity: .8;
+}
+
+@media screen and (max-width: 400px) {
+  .bg-traine {    
+    height: 300px;
+  }
 }

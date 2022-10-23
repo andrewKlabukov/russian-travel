@@ -5,3 +5,16 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1184px) {
+  .gallery__container {
+    grid-template-columns: 29% 29% 29%;
+    gap: 1%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gallery__container {
+    display: block;
+  }
+}

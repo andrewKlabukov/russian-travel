@@ -17,10 +17,10 @@
       </a>      
       <ul class="header-links">
         <li>
-          <a href="" class="header-link">Ru</a>
+          <a href="#" class="header-link active hover">Ru</a>
         </li>
         <li>
-          <a href="" class="header-link">Eng</a>
+          <a href="#" class="header-link hover">Eng</a>
         </li>        
       </ul>      
     </header>
@@ -33,6 +33,7 @@
               Настоящая страна не в выпусках новостей, а здесь.
             </h2>
             <div class="main-img"></div>
+            <p class="main-img__text">ваша полка — верхняя</p>
         </section>
         <section class="description">
           <h2 class="description__title">
@@ -93,7 +94,10 @@
           <h3 class="location__title">
             Куршская коса
           </h3>
-          <a class="location__link" href="http://park-kosa.ru">park-kosa.ru</a>
+          <div class="location-links">
+            <p class="location__url">URL</p>
+            <a class="location__link hover" href="http://park-kosa.ru">park-kosa.ru</a>
+          </div>          
           <img class="location__img" src="./images/kyrshkaya.jpg" alt="Куршская коса">
           <div class="location__description">
             <p class="location__text">
@@ -108,7 +112,10 @@
           <h3 class="location__title">
             Кольский
           </h3>
-          <a class="location__link" href="http://park-kosa.ru">park-kosa.ru</a>
+          <div class="location-links">
+            <p class="location__url">URL</p>
+            <a class="location__link hover" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+          </div>          
           <img class="location__img" src="./images/kolskyi.jpg" alt="Кольский полуостров">
           <div class="location__description">
             <p class="location__text">
@@ -123,7 +130,10 @@
           <h3 class="location__title">
             Алтай
           </h3>
-          <a class="location__link" href="http://park-kosa.ru">park-kosa.ru</a>
+          <div class="location-links">
+            <p class="location__url">URL</p>
+            <a class="location__link hover" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+          </div>          
           <img class="location__img" src="./images/altay.jpg" alt="Алтай">
           <div class="location__description">
             <p class="location__text">
@@ -134,11 +144,14 @@
             </p>
           </div>          
         </section>
-        <section class="location location_place_kurshkaya">
+        <section class="location location_place_baykal">
           <h3 class="location__title">
             Зимний Байкал
           </h3>
-          <a class="location__link" href="http://park-kosa.ru">park-kosa.ru</a>
+          <div class="location-links">
+            <p class="location__url">URL</p>
+            <a class="location__link hover" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+          </div>          
           <img class="location__img" src="./images/baykal.jpg" alt="Куршская коса">
           <div class="location__description">
             <p class="location__text">
@@ -149,11 +162,14 @@
             </p>
           </div>          
         </section>
-        <section class="location location_place_kurshkaya">
+        <section class="location location_place_kareliya">
           <h3 class="location__title">
             Карелия
           </h3>
-          <a class="location__link" href="http://park-kosa.ru">park-kosa.ru</a>
+          <div class="location-links">
+            <p class="location__url">URL</p>
+            <a class="location__link hover" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+          </div>          
           <img class="location__img" src="./images/kareliya.jpg" alt="Куршская коса">
           <div class="location__description">
             <p class="location__text">
@@ -161,24 +177,24 @@
             </p>            
           </div>          
         </section>
-        <section class="traine">
-          <div class="bg-traine">
-            <h2>
+        <section class="traine">                  
+          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="bg-traine">                      
+            <h2 class="traine__title">
               До Байкала «на собаках»
             </h2>
-            <p>
+            <p class="traine__text">
               По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
             </p>
-          </div>
+          </a>          
         </section>
     </main>
     <footer class="footer">
       <ul class="footer-links">
-        <li><a href="" class="footer-link">Карты</a></li>
-        <li><a href="" class="footer-link">Погода</a></li>
-        <li><a href="" class="footer-link">Расписание</a></li>
-        <li><a href="" class="footer-link">Календарь</a></li>
-        <li><a href="" class="footer-link">Путешествия</a></li>
+        <li class="footer-link"><a class="footer-link__item hover" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+        <li class="footer-link"><a class="footer-link__item hover" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+        <li class="footer-link"><a class="footer-link__item hover" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+        <li class="footer-link"><a class="footer-link__item hover" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+        <li class="footer-link"><a class="footer-link__item hover" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
       </ul>
       <div class="copywrite">
         <p class="copywrite__author">

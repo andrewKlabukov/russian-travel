@@ -2,5 +2,15 @@
   max-width: 984px;
   margin: auto;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 48% 48%;
+  column-gap: 4%;
+  row-gap: 48px;
+  margin-top: 92px;
+}
+
+@media screen and (max-width: 400px) {
+  .location {
+    display: block;
+    margin-top: 64px;
+  }
 }

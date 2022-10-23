@@ -1,6 +1,10 @@
-.footer-link {
-  text-decoration: none;
-  color: #fff;
+.footer-link { 
   margin-right: 18px;
 }
 
+@media screen and (max-width: 400px) {
+  .footer-link {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}

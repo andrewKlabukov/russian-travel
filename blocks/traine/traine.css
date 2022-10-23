@@ -1,4 +1,10 @@
 .traine {
   max-width: 1184px;
-  margin: 0 auto;
+  margin: 92px auto 0;
+}
+
+@media screen and (max-width: 400px) {
+  .traine {
+    margin-top: 66px;;
+  }
 }
