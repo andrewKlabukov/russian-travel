@@ -1,6 +1,5 @@
 .description__title {
-  width: 690px;
-  height: 58px;
+  max-width: 690px;  
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
@@ -11,9 +10,15 @@
   margin-top: 92px;
 }
 
+@media screen and (max-width: 730px) {
+  .description__title {    
+    font-size: 44px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .description__title {    
-    width: 288px;
+    max-width: 288px;
     height: 70px;
     font-size: 32px;
     line-height: 35px;

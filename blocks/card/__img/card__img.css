@@ -1,7 +1,7 @@
 .card__img {
   max-height: 213px;
   max-width: 284px;
-  object-fit: contain;
+  display: block;
 }
 
 @media screen and (max-width: 400px) {

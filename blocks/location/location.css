@@ -8,6 +8,20 @@
   margin-top: 92px;
 }
 
+@media screen and (max-width: 1024px) {
+  .location {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .location {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .location {
     display: block;

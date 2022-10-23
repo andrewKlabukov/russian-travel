@@ -1,9 +1,3 @@
 .location-links {
   align-self: end;
 }
-
-@media screen and (max-width: 400px) {
-  .location-links {
-    margin-left: 16px;
-  }
-}

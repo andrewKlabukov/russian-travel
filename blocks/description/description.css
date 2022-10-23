@@ -3,8 +3,24 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .description {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .description {
-    margin-top: 64px;   
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16x; 
   }
 }

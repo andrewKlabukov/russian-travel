@@ -12,6 +12,12 @@
   margin-top: 56px;
 }
 
+@media screen and (max-width: 730px) {
+  .main-title {    
+    font-size: 54px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .main-title {
     width: 288px;
