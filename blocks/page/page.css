@@ -21,9 +21,5 @@
   background-color: #2A2C2F;
   font-size: 18px;
   font-family: "Inter";
-  
-}
-
-* {
-  border: 1px solid red;
+  text-rendering: optimizeLegibility;
 }
