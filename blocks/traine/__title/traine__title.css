@@ -6,7 +6,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  color: #FFFFFF;
+  color: #fff;
   position: absolute;
   top: 20%;
   left: calc(50% - 280px);
@@ -16,10 +16,10 @@
 }
 
 @media screen and (max-width: 570px) {
-  .traine__title {    
-    font-size: 48px; 
+  .traine__title {
+    font-size: 48px;
     max-width: 70%;
-    left: calc(50% - 35%);  
+    left: calc(50% - 35%);
   }
 }
 
