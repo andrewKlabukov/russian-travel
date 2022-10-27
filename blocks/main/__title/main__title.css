@@ -19,8 +19,8 @@
 
 @media screen and (max-width: 400px) {
   .main__title {
-    width: 288px;
-    height: 88px;
+    width: 100%;
+    min-height: 88px;
     font-size: 40px;
     line-height: 44px;
     margin-top: 48px;

@@ -13,8 +13,8 @@
 
 @media screen and (max-width: 400px) {
   .main__subtitle {
-    width: 288px;
-    height: 40px;
+    width: 100%;
+    min-height: 40px;
     font-size: 16px;
     line-height: 20px;
     margin-top: 16px;
