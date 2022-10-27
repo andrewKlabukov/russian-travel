@@ -1,7 +1,7 @@
-.bg-traine {
+.traine__bg {
   max-width: 1184px;
-  height: 740px;
-  background-image: url(../../images/__background.jpg);
+  min-height: 740px;
+  background-image: url(../../../images/__background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@
   position: relative; 
 }
 
-.bg-traine::before {
+.traine__bg::before {
 	content: '';
 	display: block;
 	width: 100%;
@@ -26,12 +26,12 @@
 	background-color:rgba(42, 44, 47, .3);
 }
 
-.bg-traine:hover {
+.traine__bg:hover {
   opacity: 0.8;
 }
 
 @media screen and (max-width: 400px) {
-  .bg-traine {    
-    height: 300px;
+  .traine__bg {    
+    min-height: 300px;
   }
 }

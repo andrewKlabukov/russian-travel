@@ -1,4 +1,4 @@
-.main-subtitle {
+.main__subtitle {
   max-width: 640px;
   font-family: 'Inter';
   font-style: normal;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 400px) {
-  .main-subtitle {
+  .main__subtitle {
     width: 288px;
     height: 40px;
     font-size: 16px;

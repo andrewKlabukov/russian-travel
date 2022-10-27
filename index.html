@@ -13,28 +13,29 @@
   <div class="page">        
     <header class="header">
       <a href="#">
-        <img src="./images/__logo.svg" alt="логотип Россия" class="logo logo_place_header">
+        <img src="./images/__logo.svg" alt="логотип Россия" class="logo">
       </a>      
       <ul class="header-links">
         <li class="header-link">
-          <a href="#" class="header-link__item active hover">Ru</a>
+          <a href="#" class="header-link__item header-link_active hover">Ru</a>
         </li>
         <li class="header-link">
-          <a href="#" class="header-link__item hover">Eng</a>
+          <a href="#" class="header-link__item hover">En</a>
         </li>        
       </ul>      
     </header>
     <main class="content">
         <section class="main">
-            <h1 class="main-title">
+            <h1 class="main__title">
                 Путешествия по России
             </h1>
-            <h2 class="main-subtitle">
+            <h2 class="main__subtitle">
               Настоящая страна не в выпусках новостей, а здесь.
             </h2>
-            <div class="main-img">
-            </div>
-            <p class="main__text">ваша полка — верхняя</p>
+            <figure>
+              <img class="main__img" src="./images/main-img.jpg" alt="Девушка в вагоне поезда">
+              <figcaption class="main__text">ваша полка — верхняя</figcaption>
+            </figure>
         </section>
         <section class="description">
           <h2 class="description__title">
@@ -44,11 +45,11 @@
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
           </p>
           <ul class="description__list">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li>Часовых поясов <span class="description__list_weight">11</span></li>
+            <li>Объектов природного наследия ЮНЕСКО <span class="description__list_weight">12</span></li>
+            <li>Объектов культурного наследия ЮНЕСКО <span class="description__list_weight">16</span></li>
+            <li>Природных заповедников <span class="description__list_weight">105</span></li>
+            <li>Аэропортов <span class="description__list_weight">241</span></li>
           </ul>
         </section>
         <section class="gallery">
@@ -91,12 +92,12 @@
             </li>
           </ul>
         </section>
-        <section class="location location_place_kurshkaya">
+        <section class="location">
           <h3 class="location__title">
             Куршская коса
           </h3>
-          <div class="location-links">
-            <p class="location__url">URL</p>
+          <div class="location__links">
+            <p class="location__url">url</p>
             <a class="location__link hover" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>          
           <img class="location__img" src="./images/kyrshkaya.jpg" alt="Куршская коса">
@@ -109,12 +110,12 @@
             </p>
           </div>          
         </section>
-        <section class="location location_place_kolskyi">
+        <section class="location">
           <h3 class="location__title">
             Кольский
           </h3>
-          <div class="location-links">
-            <p class="location__url">URL</p>
+          <div class="location__links">
+            <p class="location__url">url</p>
             <a class="location__link hover" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
           </div>          
           <img class="location__img" src="./images/kolskyi.jpg" alt="Кольский полуостров">
@@ -127,12 +128,12 @@
             </p>
           </div>          
         </section>
-        <section class="location location_place_altay">
+        <section class="location">
           <h3 class="location__title">
             Алтай
           </h3>
-          <div class="location-links">
-            <p class="location__url">URL</p>
+          <div class="location__links">
+            <p class="location__url">url</p>
             <a class="location__link hover" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
           </div>          
           <img class="location__img" src="./images/altay.jpg" alt="Алтай">
@@ -145,12 +146,12 @@
             </p>
           </div>          
         </section>
-        <section class="location location_place_baykal">
+        <section class="location">
           <h3 class="location__title">
             Зимний Байкал
           </h3>
-          <div class="location-links">
-            <p class="location__url">URL</p>
+          <div class="location__links">
+            <p class="location__url">url</p>
             <a class="location__link hover" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
           </div>          
           <img class="location__img" src="./images/baykal.jpg" alt="Байкал">
@@ -163,12 +164,12 @@
             </p>
           </div>          
         </section>
-        <section class="location location_place_kareliya">
+        <section class="location">
           <h3 class="location__title">
             Карелия
           </h3>
-          <div class="location-links">
-            <p class="location__url">URL</p>
+          <div class="location__links">
+            <p class="location__url">url</p>
             <a class="location__link hover" href="http://vodlozero.ru">http://vodlozero.ru/</a>
           </div>          
           <img class="location__img" src="./images/kareliya.jpg" alt="Карелия">
@@ -179,29 +180,29 @@
           </div>          
         </section>
         <section class="traine">                  
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="bg-traine">           
-          </a>
-          <h2 class="traine__title">
-            До Байкала «на собаках»
-          </h2>
-          <p class="traine__text">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-          </p>
+          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="traine__bg">
+            <h2 class="traine__title">
+              До Байкала «на собаках»
+            </h2>
+            <p class="traine__text">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+            </p>
+          </a>          
         </section>
     </main>
     <footer class="footer">
-      <ul class="footer-links">
-        <li class="footer-link"><a class="footer-link__item hover" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-        <li class="footer-link"><a class="footer-link__item hover" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-        <li class="footer-link"><a class="footer-link__item hover" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-        <li class="footer-link"><a class="footer-link__item hover" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-        <li class="footer-link"><a class="footer-link__item hover" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-      </ul>
-      <div class="copywrite">
-        <p class="copywrite__author">
+      <nav class="footer__nav">
+        <ul class="footer__links">
+          <li class="footer-link"><a class="footer__link-item hover" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer-link"><a class="footer__link-item hover" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer-link"><a class="footer__link-item hover" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer-link"><a class="footer__link-item hover" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer-link"><a class="footer__link-item hover" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>      
+        <p class="footer__copywrite">
           &#169; 2022 Andrey Klabukov
-        </p>
-      </div>
+        </p>      
     </footer>       
   </div>
 </body>    
