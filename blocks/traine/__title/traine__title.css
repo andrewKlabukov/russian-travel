@@ -1,15 +1,14 @@
 .traine__title {  
   max-width: 560px;
-  height: 152px;
+  min-height: 152px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   color: #fff;
-  position: absolute;
-  top: 20%;
-  left: calc(50% - 280px);
+  position: relative;
+  z-index: 10;
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
@@ -25,8 +24,8 @@
 
 @media screen and (max-width: 400px) {
   .traine__title {
-    width: 288px;
-    height: 70px;
+    max-width: 288px;
+    min-height: 70px;
     font-size: 32px;
     line-height: 35px;
   }
