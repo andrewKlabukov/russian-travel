@@ -24,10 +24,11 @@
 	right: 0;
 	bottom: 0;
 	background-color:rgba(42, 44, 47, .3);
+  transition: .5s;
 }
 
-.traine__bg:hover {
-  opacity: 0.8;
+.traine__bg:hover::before {
+  background-color:rgba(42, 44, 47, .8); 
 }
 
 @media screen and (max-width: 400px) {
