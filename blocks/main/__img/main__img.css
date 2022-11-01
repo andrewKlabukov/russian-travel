@@ -3,10 +3,18 @@
   max-width: 984px;
   max-height: 615px;
   width: 100%;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
   margin-top: 64px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .main__img {
+    max-height: 580px;
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width: 400px) {

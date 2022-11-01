@@ -12,13 +12,6 @@ margin-top: 8px;
 margin-bottom: 0;
 }
 
-
-@media screen and (max-width: 1024px) {
-  .main__text {
-    margin-left: 24px;    
-  }
-}
-
 @media screen and (max-width: 400px) {
   .main__text {
     margin-left: 16px;
