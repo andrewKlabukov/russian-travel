@@ -5,12 +5,3 @@
 .header-link:last-child {
   margin-right: 0;
 }
-
-@media screen and (max-width: 400px) {
-  .header-link {
-    width: 22px;
-    height: 20px;
-    font-size: 18px;
-    line-height: 20px;
-  }
-}
