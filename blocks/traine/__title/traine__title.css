@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 400px) {
   .traine__title {
-    max-width: 288px;
+    max-width: 255px;
     min-height: 70px;
     font-size: 32px;
     line-height: 35px;
