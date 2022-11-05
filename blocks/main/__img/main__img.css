@@ -19,12 +19,13 @@
 @media screen and (max-width: 768px) {
   .main__img {
     margin-top: 56px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .main__img {
-    height: 200px;
+    min-height: 200px;
     margin-top: 40px;
   }
 }
