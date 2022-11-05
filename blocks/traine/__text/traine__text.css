@@ -15,9 +15,10 @@
 
 @media screen and (max-width: 400px) {
   .traine__text {    
-    width: 100%;
+    max-width: 200px;
     min-height: 48px;
     font-size: 14px;
     line-height: 16px;
+    margin-top: 20px;
   }
 }

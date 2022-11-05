@@ -12,8 +12,13 @@
 
 @media screen and (max-width: 1024px) {
   .main__img {
-    max-height: 580px;
-    max-width: 928px;
+    margin-top: 54px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__img {
+    margin-top: 56px;
   }
 }
 

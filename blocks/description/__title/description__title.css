@@ -10,6 +10,12 @@
   margin-top: 92px;
 }
 
+@media screen and (max-width: 768px) {
+  .description__title {
+    margin-top: 90px;
+  }
+}
+
 @media screen and (max-width: 730px) {
   .description__title {
     font-size: 44px;

@@ -12,14 +12,22 @@ margin-top: 8px;
 margin-bottom: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .main__text {    
+    margin-top: 6px;  
+  }
+}
+
 @media screen and (max-width: 768px) {
   .main__text {
-    margin-left: 24px;   
+    margin-left: 24px; 
+    margin-top: 4px;  
   }
 }
 
 @media screen and (max-width: 400px) {
   .main__text {
-    margin-left: 16px;        
+    margin-left: 16px;
+    margin-top: 4px;
   }
 }

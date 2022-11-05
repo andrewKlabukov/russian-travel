@@ -13,7 +13,7 @@
 @media screen and (max-width: 768px) {
   .location__title {
     font-size: 42px;
-    line-height: inherit;
+    line-height: 43px;
     max-width: 280px;
   }
 }
@@ -30,7 +30,7 @@
     height: 35px;
     font-size: 32px;
     line-height: 35px;
-    margin: 0 0 32px;
+    margin: 0 16px 32px;
   }
 }
 

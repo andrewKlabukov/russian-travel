@@ -12,6 +12,7 @@
   .location {
     margin-left: 48px;
     margin-right: 48px;
+    column-gap: 3%;
   }
 }
 
@@ -19,6 +20,7 @@
   .location {
     margin-left: 24px;
     margin-right: 24px;
+    column-gap: 3%;
   }
 }
 
@@ -26,5 +28,7 @@
   .location {
     display: block;
     margin-top: 64px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

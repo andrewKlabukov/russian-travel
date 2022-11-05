@@ -11,6 +11,18 @@
   margin-top: 56px;
 }
 
+@media screen and (max-width: 1024px) {
+  .main__title {    
+    margin-top: 43px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__title {    
+    margin-top: 43px;
+  }
+}
+
 @media screen and (max-width: 730px) {
   .main__title {    
     font-size: 54px;
@@ -24,5 +36,6 @@
     font-size: 40px;
     line-height: 44px;
     margin-top: 48px;
+    margin-top: 44px;
   }
 }
