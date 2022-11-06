@@ -2,10 +2,10 @@
   max-width: 984px;
   margin: auto;
   display: grid;
-  grid-template-columns: 48% 48%;
+  grid-template-columns: 48% 49%;
   column-gap: 4%;
   row-gap: 48px;
-  margin-top: 92px;
+  margin-top: 76px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,6 +21,7 @@
     margin-left: 24px;
     margin-right: 24px;
     column-gap: 3%;
+    margin-top: 74px;
   }
 }
 
