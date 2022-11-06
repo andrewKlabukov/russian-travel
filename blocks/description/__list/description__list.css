@@ -14,7 +14,8 @@
 @media screen and (max-width: 400px) {
   .description__list {    
     max-width: 288px;
-    margin: 40px auto 0;
+    margin: 34px auto 0;
+    line-height: 18px;
   }
 }
 

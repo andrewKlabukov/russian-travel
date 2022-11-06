@@ -29,6 +29,7 @@
 @import url(../blocks/location/__img/location__img.css);
 @import url(../blocks/location/__links/location__links.css);
 @import url(../blocks/location/__url/location__url.css);
+@import url(../blocks/location-content/location-content.css);
 @import url(../blocks/traine/traine.css);
 @import url(../blocks/traine/__bg/traine__bg.css);
 @import url(../blocks/traine/__title/traine__title.css);
